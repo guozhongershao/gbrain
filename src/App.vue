@@ -12,6 +12,9 @@
 </script>
 
 <style>
+  html{
+    font-size: 62.5%;
+  }
   /* 清除内外边距 */
   body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
   dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
