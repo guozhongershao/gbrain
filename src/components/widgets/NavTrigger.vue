@@ -31,7 +31,7 @@
         default: 100, // 默认100px
       },
       backgroundColor: {
-        default: 'ffffff',
+        default: 'transparent',
         type: [String],
       },
       tintColor: {
@@ -53,6 +53,7 @@
 
 <style scoped>
   .nav-trigger {
+    position: fixed;
     display: inline-block;
     width: 0.01em;
     height: 0.01em;
@@ -64,6 +65,7 @@
     background-color: transparent;
     padding: 0 .00063em;
     transition: all .4s ease;
+    z-index: 999999;
   }
 
   .nav-trigger span {
